@@ -14,9 +14,10 @@ const TP1 = () => {
 const Style = StyleSheet.create({
   container: {
     flex: 1,
-    margin: 20,
+    padding: 10,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: "white",
   },
   Text: {
     color: "blue",

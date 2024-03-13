@@ -61,6 +61,7 @@ const Style = StyleSheet.create({
   container: {
     flex: 1,
     margin: 20,
+    backgroundColor: "white",
   },
   Title: {
     fontSize: 30,

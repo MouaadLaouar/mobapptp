@@ -19,7 +19,7 @@ const RootNavigation = () => {
   return (
     <SafeAreaView style={Style.container}>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="TP3">
+        <Stack.Navigator initialRouteName="Home">
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="TP1" component={TP1} />
           <Stack.Screen name="TP2" component={TP2} />
@@ -38,7 +38,7 @@ const Style = StyleSheet.create({
   container: {
     flex: 1,
     // marginTop: StatusBar.currentHeight,
-    // marginHorizontal: 20
+    // marginHorizontal: 20,
   },
 });
 
