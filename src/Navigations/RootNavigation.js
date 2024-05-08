@@ -19,7 +19,7 @@ const RootNavigation = () => {
   return (
     <SafeAreaView style={Style.container}>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Home">
+        <Stack.Navigator initialRouteName="TP6">
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="TP1" component={TP1} />
           <Stack.Screen name="TP2" component={TP2} />
